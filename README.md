@@ -48,6 +48,17 @@ If you find it helpful, a mention or credit would be highly appreciated. 🙌
 | Mobile 📲   | ![Mobile Screenshot](![alt text](image-6.png)) |
 
 
+
+## ⚠️ Disclaimer — Important (EN / AR)
+
+**English:**  
+**All personal names, contact details, organizations, and images included in this repository are fictional and used for demonstration only.**  
+They do not represent real people or real contact information. Do not treat any of the above as real data.
+
+**العربية:**  
+**جميع الأسماء الشخصية ومعلومات الاتصال والمنظمات والصور الموجودة في هذا المستودع وهمية ومستخدمة لأغراض العرض فقط.**  
+لا تمثل أي شخص أو جهة حقيقية، ولا تعتبر معلومات للاستخدام الفعلي.
+
 ## Contact
 - GitHub: [EngllNouf](https://github.com/EngllNouf)  
 - LinkedIn: [Nouf Aljedaani](https://linkedin.com/in/nouf-aljedaani-14ba9a284)  
