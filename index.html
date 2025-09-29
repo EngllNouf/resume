@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nouf Aljedaani - Software Engineer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ساره محمد - Software Engineer</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="./Index.css">
+    <link rel="stylesheet" href="./Index.css">
 </head>
 <body>
     <div class="background-animation"></div>
 
     <nav>
         <div class="nav-container">
-            <a href="#" class="logo">NA</a>
+            <a href="#" class="logo">SM</a>
             <button class="mobile-menu-btn">
                 <span></span>
                 <span></span>
@@ -29,87 +29,85 @@
             </div>
         </div>
     </nav>
-    
-
-    <script>
-        // Mobile menu functionality
-        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-        const navLinks = document.querySelector('.nav-links');
-
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenuBtn.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Close mobile menu when clicking a link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenuBtn.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
-
-        // Navbar scroll effect
-        let lastScroll = 0;
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-            const nav = document.querySelector('nav');
-
-            if (currentScroll <= 0) {
-                nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.05)';
-                return;
-            }
-
-            if (currentScroll > lastScroll) {
-                nav.style.transform = 'translateY(-100%)';
-            } else {
-                nav.style.transform = 'translateY(0)';
-                nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
-            }
-
-            lastScroll = currentScroll;
-        });
-    </script>
-
-
 
 <section class="hero" id="home">
     <div class="hero-content" data-aos="fade-up">
         <div class="hero-text">
-            <h1>Nouf Aljedaani</h1>
+            <h1>Sarh Mohammed </h1>
             <h2>Software Engineer & Front-End Developer</h2>
-            <p>A fresh graduate in Software Engineering and a Front-End Web Developer with a strong foundation in software engineering principles and practices. I am skilled in HTML, CSS, JavaScript, and modern front-end frameworks, with a passion for creating intuitive and user-friendly interfaces. I am enthusiastic about delivering exceptional user experiences and eager to enhance my skills through opportunities that foster growth and allow me to contribute meaningfully to the field of software engineering.</p>
+            <p>A passionate software engineer focused on building clean, accessible and responsive user interfaces. Skilled in HTML, CSS, JavaScript and front-end tooling. I enjoy turning ideas into polished products and learning new technologies every day.</p>
             <div class="cta-buttons">
                 <button class="cta-button secondary-button" onclick="location.href='#projects'">View Projects</button>
             </div>
             <div class="social-links">
-                <a href="https://github.com/EngllNouf" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="linkedin.com/in/nouf-aljedaani-14ba9a284" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:noof.all.38020@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/sarah-mohammed-fake" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/sarah-mohammed-fake" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:sarah.mohammed@example.com" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
         <div class="hero-image">
-            <img src="https://media.licdn.com/dms/image/v2/D5603AQEMbdFODyMo4Q/profile-displayphoto-shrink_400_400/B56ZOTl7xWGoAk-/0/1733348018144?e=1743033600&v=beta&t=w2gXNnR9J2TbT0zhK877IVcpIpwIy0DgbX8oCq2wjuk" alt="Professional portrait">
+            <!-- placeholder avatar -->
+            <img src="data:image/jpeg;base64,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" alt="Professional portrait">
         </div>
     </div>
 </section>
+
+<script>
+    // Mobile menu functionality
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenuBtn.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenuBtn.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
+
+    // Navbar scroll effect
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        const nav = document.querySelector('nav');
+
+        if (currentScroll <= 0) {
+            nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.05)';
+            return;
+        }
+
+        if (currentScroll > lastScroll) {
+            nav.style.transform = 'translateY(-100%)';
+        } else {
+            nav.style.transform = 'translateY(0)';
+            nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
+        }
+
+        lastScroll = currentScroll;
+    });
+</script>
+
 <div class="container">
     <div class="header">
         <h1>Professional Journey</h1>
     </div>
 
     <!-- Education Section -->
-    <div class="section">
+    <div class="section" id="about">
         <h2 class="section-titleForVolunteer">Education</h2>
         <div class="entry">
             <div class="entry-header">
                 <div>
-                    <div class="entry-title">Bachelors of Software Engineering</div>
-                    <div class="entry-subtitle">University of Jeddah</div>
+                    <div class="entry-title">Bachelor of Software Engineering</div>
+                    <div class="entry-subtitle">Riverside Technical University</div>
                 </div>
-                <div class="entry-date">08/2020 – 12/2024</div>
+                <div class="entry-date">09/2019 – 06/2023</div>
             </div>
-          
         </div>
     </div>
 
@@ -119,245 +117,151 @@
         <div class="entry">
             <div class="entry-header">
                 <div>
-                    <div class="entry-title">Technical Team Member</div>
-                    <div class="entry-subtitle">Artificial Intelligence Club</div>
+                    <div class="entry-title">Tech Mentor</div>
+                    <div class="entry-subtitle">Community Coders Hub</div>
                 </div>
-                <div class="entry-date">02/2024 - present</div>
+                <div class="entry-date">02/2023 - Present</div>
             </div>
-            
         </div>
 
         <div class="entry">
-        <div class="entry-header">
-            <div>
-                <div class="entry-title">Web Developer - Front End</div>
-                <div class="entry-subtitle">Synapse Association</div>
+            <div class="entry-header">
+                <div>
+                    <div class="entry-title">Front-End Developer (Volunteer)</div>
+                    <div class="entry-subtitle">Open Source Learning Group</div>
+                </div>
+                <div class="entry-date">07/2022 - 01/2023</div>
             </div>
-            <div class="entry-date">08/2024  - present</div>
         </div>
-        
-    </div>
     </div>
 
-    
     <!-- Courses Section -->
     <div class="section">
         <h2 class="section-titleForVolunteer">Courses</h2>
         <div class="entry">
             <div class="entry-header">
                 <div>
-                    <div class="entry-title">Foundations of Project Management</div>
-                    <div class="entry-subtitle">Google</div>
+                    <div class="entry-title">Responsive Web Design</div>
+                    <div class="entry-subtitle">freeCodeCamp</div>
                 </div>
-                <div class="entry-date">12/2023 - 02/2024</div>
+                <div class="entry-date">2022</div>
             </div>
         </div>
         <div class="entry">
             <div class="entry-header">
                 <div>
-                    <div class="entry-title">The philosophy of the internet world</div>
-                    <div class="entry-subtitle">Digital Attaa</div>
+                    <div class="entry-title">Intro to Node.js</div>
+                    <div class="entry-subtitle">Online Academy</div>
                 </div>
-                <div class="entry-date">06/2022</div>
+                <div class="entry-date">2023</div>
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    // Create animated background particles
-    const backgroundAnimation = document.querySelector('.background-animation');
-    for(let i = 0; i < 15; i++) {
-        const span = document.createElement('span');
-        span.style.left = Math.random() * 100 + '%';
-        span.style.animationDelay = Math.random() * 15 + 's';
-        backgroundAnimation.appendChild(span);
-    }
+    // background particles (simple)
+    const backgroundAnimation = document.querySelectorAll('.background-animation');
+    backgroundAnimation.forEach(container => {
+        for(let i = 0; i < 12; i++) {
+            const span = document.createElement('span');
+            span.style.left = Math.random() * 100 + '%';
+            span.style.animationDelay = Math.random() * 12 + 's';
+            container.appendChild(span);
+        }
+    });
 </script>
 
 <div class="background-effects">
     <div class="gradient-orb orb-1"></div>
     <div class="gradient-orb orb-2"></div>
 </div>
-<div class="skills-container">
-    <h2 class="section-titleForSkills">Professional Skills</h3>
+
+<div class="skills-container" id="skills">
+    <h2 class="section-titleForSkills">Professional Skills</h2>
     <div class="skills-grid">
         <div class="skill-category">
             <h3 class="category-title">Technical Skills</h3>
             <ul class="skills-list">
-                <li class="skill-item">
-                    <i class="fas fa-code skill-icon"></i>
-                    Web Development
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-vial skill-icon"></i>
-                    Testing
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-paint-brush skill-icon"></i>
-                    UI/UX
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-sync-alt skill-icon"></i>
-                    Agile Methodologies (Scrum)
-                </li>
+                <li class="skill-item"><i class="fas fa-code skill-icon"></i> Web Development</li>
+                <li class="skill-item"><i class="fas fa-vial skill-icon"></i> Testing & QA</li>
+                <li class="skill-item"><i class="fas fa-paint-brush skill-icon"></i> UI/UX Fundamentals</li>
+                <li class="skill-item"><i class="fas fa-sync-alt skill-icon"></i> Agile Workflows</li>
             </ul>
         </div>
 
         <div class="skill-category">
             <h3 class="category-title">Programming Languages</h3>
             <ul class="skills-list">
-                <li class="skill-item">
-                    <i class="fab fa-html5 skill-icon"></i>
-                    HTML
-                </li>
-                <li class="skill-item">
-                    <i class="fab fa-css3-alt skill-icon"></i>
-                    CSS
-                </li>
-                <li class="skill-item">
-                    <i class="fab fa-js-square skill-icon"></i>
-                    JavaScript
-                </li>
-                <li class="skill-item">
-                    <i class="fab fa-java skill-icon"></i>
-                    Java
-                </li>
+                <li class="skill-item"><i class="fab fa-html5 skill-icon"></i> HTML</li>
+                <li class="skill-item"><i class="fab fa-css3-alt skill-icon"></i> CSS</li>
+                <li class="skill-item"><i class="fab fa-js-square skill-icon"></i> JavaScript</li>
+                <li class="skill-item"><i class="fab fa-java skill-icon"></i> Java</li>
             </ul>
         </div>
 
         <div class="skill-category">
             <h3 class="category-title">Tools & Software</h3>
             <ul class="skills-list">
-                <li class="skill-item">
-                    <i class="fab fa-figma skill-icon"></i>
-                    Figma
-                </li>
-                <li class="skill-item">
-                    <i class="fab fa-github skill-icon"></i>
-                    GitHub
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-code-branch skill-icon"></i>
-                    Visual Studio
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-laptop-code skill-icon"></i>
-                    NetBeans
-                </li>
+                <li class="skill-item"><i class="fab fa-figma skill-icon"></i> Figma</li>
+                <li class="skill-item"><i class="fab fa-github skill-icon"></i> GitHub</li>
+                <li class="skill-item"><i class="fas fa-code-branch skill-icon"></i> VS Code</li>
+                <li class="skill-item"><i class="fas fa-laptop-code skill-icon"></i> MySQL</li>
             </ul>
         </div>
 
         <div class="skill-category">
-            <h3 class="category-title">Communication & Collaboration</h3>
+            <h3 class="category-title">Soft Skills</h3>
             <ul class="skills-list">
-                <li class="skill-item">
-                    <i class="fas fa-users skill-icon"></i>
-                    Teamwork
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-tasks skill-icon"></i>
-                    Project Management
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-comments skill-icon"></i>
-                    Communication Skills
-                </li>
-                <li class="skill-item">
-                    <i class="fas fa-puzzle-piece skill-icon"></i>
-                    Problem Solving
-                </li>
+                <li class="skill-item"><i class="fas fa-users skill-icon"></i> Teamwork</li>
+                <li class="skill-item"><i class="fas fa-comments skill-icon"></i> Communication</li>
+                <li class="skill-item"><i class="fas fa-lightbulb skill-icon"></i> Critical Thinking</li>
+                <li class="skill-item"><i class="fas fa-tasks skill-icon"></i> Problem Solving</li>
             </ul>
         </div>
     </div>
 </div>
 
+<section class="projects-section" id="projects">
+    <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-aos="fade-up">
+            <div class="project-image-container">
+                <img src="https://picsum.photos/600/360?random=11" alt="Project 1" class="project-image">
+                <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">StudyBuddy — Task Organizer</h3>
+                <p class="project-description">A lightweight task organizer for students with categories, deadlines and simple reminders. Built with vanilla JS and localStorage for persistence.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-aos="fade-up">
+            <div class="project-image-container">
+                <img src="https://picsum.photos/600/360?random=22" alt="Project 2" class="project-image">
+                <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">ShopFront — E-commerce Landing</h3>
+                <p class="project-description">A responsive landing page showcasing products, built from a Figma prototype and implemented with modern CSS layout techniques.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init({
-        duration: 1200,
+        duration: 1000,
         once: true,
-        mirror: false,
         offset: 120
     });
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        });
-    });
-</script>
-
-<div class="background-animation"></div>
-
-<section class="projects-section">
-<h2 class="section-title" data-aos="fade-down">My Projects</h2>
-
-<div class="projects-grid">
-    <!-- Project 1 -->
-    <article class="project-card" data-aos="fade-up">
-        <div class="project-image-container">
-            <img src="https://engineering.fb.com/wp-content/uploads/2016/12/grid-AI.jpg" alt="Project 1" class="project-image">
-            <div class="project-overlay"></div>
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-                Artificial Intelligence Club Website (Beta Launch)
-            </h3>
-           
-            <p class="project-description">
-                A platform for students to browse workshops, newsletters, and the club’s structure.
-
-                Currently in beta phase, with plans for future updates            </p>
-            <a href="https://engllnouf.github.io/ForTry/" class="project-link">View Project →</a>
-        </div>
-    </article>
- 
-
-
-
-
-
-    <!-- Project 2 -->
-    <article class="project-card" data-aos="fade-up">
-        <div class="project-image-container">
-            <img src="https://engineering.fb.com/wp-content/uploads/2016/12/grid-AI.jpg" alt="Project 1" class="project-image">
-            <div class="project-overlay"></div>
-        </div>
-        <div class="project-content">
-            <h3 class="project-title">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-                Integrated Logistics Platform
-            </h3>
-           
-            <p class="project-description">
-                Objective: Built a platform to connect traders with transportation companies, streamlining logistics and transport services.
-                Technologies Used: HTML, CSS, JavaScript, Visual Studio, Node.js, MySQL.
-
-
-        </div>
-    </article>
-
-
-    
-
-   
-
-<script>
-AOS.init({
-    duration: 1000,
-    once: true,
-    offset: 100
-});
 </script>
 </body>
 </html>
